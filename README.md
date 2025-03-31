@@ -1,6 +1,6 @@
 # Camera preview
 
-![alt](md\preview.png)
+![image](./md/preview.png)
 
 This small extension emits GameView from Unity3d.
 My personal pain has become to see the editor in which I cannot see how the first frame will look within the camera without launching the play mode.
