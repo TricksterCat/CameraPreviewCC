@@ -14,11 +14,16 @@ npm install
 # build
 npm run build
 ```
+## How to use:
+1) In the "Panel" menu, select "Camera Preview"
+2) In the panel that opens, select the desired camera, frame rate and scale.
+
+P.S. The resolution is taken from the Design width and height from the project settings.
 
 ## Donation
 This extension is completely free.
 I will be glad if you find it useful and want to thank me.
 
-BNB: 0x68522b571f478d194Bd1999a4edDd160C2c06d52
-BTC: bc1q0u4dvhkn5ynewj8nwqtsu6f2efv04ut00xh9eq
-ETH: 0x68522b571f478d194Bd1999a4edDd160C2c06d52
+* BNB: 0x68522b571f478d194Bd1999a4edDd160C2c06d52
+* BTC: bc1q0u4dvhkn5ynewj8nwqtsu6f2efv04ut00xh9eq
+* ETH: 0x68522b571f478d194Bd1999a4edDd160C2c06d52
