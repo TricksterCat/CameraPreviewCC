@@ -2,7 +2,7 @@
 
 ![image](./md/preview.png)
 
-This small extension emits GameView from Unity3d.
+This small extension for Cocos Creator emits GameView from Unity3D.
 My personal pain has become to see the editor in which I cannot see how the first frame will look within the camera without launching the play mode.
 I tried to optimize as much as I could, but I am not completely sure, the communication scene => panel via base64 image seems a little crazy to me. I hope I will find a way to solve this.
 
