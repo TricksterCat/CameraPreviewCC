@@ -1,0 +1,59 @@
+{
+    "$schema": "./@types/schema/package/index.json",
+    "package_version": 2,
+    "name": "camera-preview-panel",
+    "version": "1.0.0",
+    "author": "TricksterCat",
+    "editor": ">=3.8.5",
+    "description": "Editor panel for camera preview",
+    "main": "./dist/main.js",
+    "devDependencies": {
+        "@cocos/creator-types": "^3.8.5",
+        "@types/fs-extra": "^9.0.5",
+        "@types/kefir": "^3.8.11",
+        "@types/node": "^18.19.84",
+        "typescript": "^4.3.4"
+    },
+    "dependencies": {
+        "fs-extra": "^9.0.5",
+        "kefir": "^3.8.8",
+        "vue": "^3.1.4"
+    },
+    "scripts": {
+        "preinstall": "node ./scripts/preinstall.js",
+        "build": "tsc"
+    },
+    "panels": {
+        "default": {
+            "title": "Camera Preview",
+            "main": "dist/panels/default",
+            "type": "dockable",
+            "width": 400,
+            "height": 500
+        }
+    },
+    "contributions": {
+        "menu": [
+            {
+                "path": "Panel",
+                "label": "Camera Preview",
+                "message": "openPanel"
+            }
+        ],
+        "scene": {
+            "script": "./dist/scene"
+        },
+        "messages": {
+            "openPanel": {
+                "methods": [
+                    "openPanel"
+                ]
+            },
+            "camera-preview-panel:frameUpdated": {
+                "methods": [
+                    "default.frameUpdated"
+                ]
+            }
+        }
+    }
+}
